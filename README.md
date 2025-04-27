@@ -57,6 +57,11 @@ Set up your MySQL database and create the orders table as shown above.
 
 Ensure DBConnection.getConnection() returns a valid Connection object to your database.
 
+module javafull {
+	requires java.sql;     // For MySQL database connection
+    requires java.desktop;
+}
+
 Compile and run the project:
 
 bash
